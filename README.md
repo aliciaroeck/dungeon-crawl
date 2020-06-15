@@ -12,19 +12,19 @@ Includes five boxes in a row that will represent the rooms, below the boxes will
 ## Layout!
 
 ## Wireframe - Version One
-![](photos/outline-one.jpg)
+![](images/outline-one.jpg)
 
 ## Wireframe - Version Two
-![](photos/outline-two.jpg)
+![](images/outline-two.jpg)
 [Wireframe](https://wireframe.cc/hf9ur6)
 
-## ~~Original color scheme~~
-- skin: #f3f0d1
-- autumn: #e29c68
-- orange: #c85108
-- red: #a20e0e
+## ~~Color scheme~~
+- ~~skin: #f3f0d1~~
+- ~~autumn: #e29c68~~
+- ~~orange: #c85108~~
+- ~~red: #a20e0e~~
 
-## Current Color Scheme
+## New Color Scheme
 - red: #a20e0e;
 - orange: #d15203;
 - black: #1f1f1f;
@@ -33,62 +33,62 @@ Includes five boxes in a row that will represent the rooms, below the boxes will
 - cream: #ece2ca;
 
 ## Background - Header
-![](photos/textured-background-6.jpg)
+![](images/textured-background-6.jpg)
 ### Citation:
 - “Parchment Paper Background.” Tierra Sur at Herzog Wine Cellars, 2020, https://tierrasuratherzog.com/wedding/ts-wedding-paper-bg/.
 
 ## Background - Game-board
-![](photos/dungeon-wall.jpg)
+![](images/dungeon-wall.jpg)
 ### Citation:
 - Hidman, Josh. “dungeon wall” pinterest, https://www.pinterest.com/pin/149955862565969694/.
 
 ## Dice
-![](photos/D20-2.gif)
+![](images/D20-2.gif)
 ### Citation:
 - “Top D20 Stickers For Android & IOS” gfycat.com, https://gfycat.com/stickers/search/d20.
 
 ## Font 
 ### Marcellus - Google Fonts
-![](photos/marcellus-font.jpg)
+![](images/marcellus-font.jpg)
 
 ## Final Board - Start
-![](photos/final-board.jpg)
+![](images/final-board.jpg)
 
 ## Final Board - Gameplay
-![](photos/final-board-gameplay.jpg)
+![](images/final-board-gameplay.jpg)
 
 # JS:
 
 ## Game Logic
 
 ### Start
-- user clicks begin button and four squares appear indicating what room you are in. (For room one the first square on the left will highlight a different color than the rest.)
-- a prompt will appear below the rooms giving the player a scenrio or scene. 
-- below the prompt will be a 20 sided die
-- next to the die there will a be button the says "Roll"
-- player started with 100 health
+- User clicks begin button and four squares appear indicating what room you are in. (For room one the first square on the left will highlight a different color than the rest.)
+- A prompt will appear below the rooms giving the player a scenrio or scene. 
+- Below the prompt will be a 20 sided die
+- Next to the die there will a be button the says "Roll"
+- Player started with 100 health
 
 ### Game play
-- after the user clicks roll the die will prompt a random number between 1-20 
-- any number from 1-10 means you take 20 damage
-- any number from 11-20 means you do not take any damage
-- there will be an icon in the top of the screen displaying your health through each room
-- as the player moves through the rooms their damage taken will increase by 20
-- when the roll is done it will log/promt whether you took damage or moved safely through the room
-- a "continue" button will appear below the prompt to move to the next room
-- hitting continue will trigger the next room to highlight, the new prompt to appear and the dice to reset
+- After the user clicks roll the die will prompt a random number between 1-20 
+- Any number from 1-10 means you take 20 damage
+- Any number from 11-20 means you do not take any damage
+- There will be an icon in the top of the screen displaying your health through each room
+- As the player moves through the rooms their damage taken will increase by 20
+- When the roll is done it will log/promt whether you took damage or moved safely through the room
+- A "continue" button will appear below the prompt to move to the next room
+- Hitting continue will trigger the next room to highlight, the new prompt to appear and the dice to reset
 
 ### End
-- if your health drops below 0 at the end of any round, the game will be over and a "You died" prompt will appear
-- in the fifth and final room you will roll one last time. If your health drops below 0 at the end of this round the game will be over and a "You died" prompt will appear
-- if you make it to the fifth room and you roll and your health is above 0 a prompt will appear saying "You Survived!"
+- If your health drops below 0 at the end of any round, the game will be over and a "You died" prompt will appear
+- In the fifth and final room you will roll one last time. If your health drops below 0 at the end of this round the game will be over and a "You died" prompt will appear
+- If you make it to the fifth room and you roll and your health is above 0 a prompt will appear saying "You Survived!"
 
 
 ## Stretch Goals
-- increase the room count
-- add armour or something to help your heath as you go through the rooms
-- ~~create a "how to play"~~
-- ~~create a  "reset"~~
+- Increase the room count from four.
+- Add armor or something to help your heath as you go through the rooms.
+- ~~Create a "how to play"~~
+- ~~Create a  "reset"~~
 
 ## Story
 ### Room One:
