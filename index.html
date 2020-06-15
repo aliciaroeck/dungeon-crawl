@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <title>Dungeon Crawl</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"defer></script>
+    <script src="js/app.js"defer></script>
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+
+    <div class="fadedBack">
+
+        <div class="text-box">
+            <div class="close">+</div>
+
+            <h2>How to Play:</h2>
+
+            <ul class="gameInst">
+                <li>There are four rooms. You will move through each room and be given scenrios in which the you will have to roll a dice to see if you take damage or not.</li> 
+                <li>If the you roll between 1-10 you will take damage. Anything between 11-20 and you will make it through the room safely.</li> 
+                <li> In the first room the damage taken will be 20 points and will increase by 20 as you move through each room.</li>
+                <li>Good Luck! You'll need it to survive the Dungeon!</li> 
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <header>    
+            <h1 class="game-title">Dungeon Crawl</h1>     
+        </header>
+
+        <nav>
+            <button class="howTo">How to</button>
+            <button class="begin">Begin</button>
+        </nav>
+        
+        <span id="health">Health: 100</span> 
+    </div>
+
+    <div class="game-board">
+
+        <section>
+            <div class="boxes one"></div>
+            <div class="boxes two"></div>
+            <div class="boxes three"></div>
+            <div class="boxes four"></div>
+        </section> 
+
+        <section class="game-board__text">
+            <p class="prompt"></p>
+        </section>
+
+        <section>
+            <!-- citation: https://gfycat.com/anotherflamboyantcobra -->
+            <img class="dice_pic" src="photos/D20-2.gif" alt="D20 dice">
+            <button class="roll">Roll</button>
+        </section>
+
+    </div>
+
+   <!--  <footer>Created by <a href="https://www.linkedin.com/in/alicia-roeck-94308a177" target="_blank">Alicia Roeck</a></footer> -->
+</body>
+</html>
